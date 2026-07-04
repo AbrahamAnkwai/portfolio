@@ -14,7 +14,7 @@ import { Profile } from "../types";
    Please fill in the commented fields below with your real information.
    ========================================================================== */
   // Use a safe access for import.meta.env to satisfy TypeScript when ImportMeta typing is not extended
-  const BASE = ((import.meta as any).env?.BASE_URL) || '/';
+const BASE = import.meta.env.BASE_URL;
 export const profileData: Profile = {
 
   // 1. YOUR BASIC INFORMATION

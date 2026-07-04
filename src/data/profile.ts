@@ -5,6 +5,7 @@
 
 import { Profile } from "../types";
 
+
 /* ==========================================================================
    PROFILE DATA FILE
    ==========================================================================
@@ -12,14 +13,15 @@ import { Profile } from "../types";
    All fictional placeholder names, careers, and statistics have been removed.
    Please fill in the commented fields below with your real information.
    ========================================================================== */
-
+  const BASE = import.meta.env.BASE_URL;
 export const profileData: Profile = {
+
   // 1. YOUR BASIC INFORMATION
   // Replace the placeholder below with your real name (e.g. "John Doe") inside /src/data/profile.ts
   name: "Computer Engineer" /* Replace this name inside /src/data/profile.ts */,
   
   // High-quality professional portrait. Replace this file inside /assets/images/placeholders/profile_portrait.jpg
-  avatar: "/assets/images/profile/ab-dp.png",
+  avatar: `${BASE}assets/images/profile/ab-dp.png`,
   
   // Your primary role or title
   title: "Computer Systems Engineer & Creative Technical Specialist" /* Replace this title inside /src/data/profile.ts */,

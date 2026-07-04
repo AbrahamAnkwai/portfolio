@@ -1,0 +1,6 @@
+{
+  "name": "Abraham Portfolio",
+  "description": "A premium, elegant, and fully responsive portfolio website featuring engineering and creative sections, smooth transitions, interactive galleries, filterable skills, services showcase, and a fully functional layout.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

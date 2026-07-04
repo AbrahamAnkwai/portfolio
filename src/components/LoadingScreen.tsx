@@ -50,7 +50,7 @@ export default function LoadingScreen() {
             <h1 className="font-sans font-bold text-lg text-white tracking-widest uppercase">
               WELCOME
             </h1>
-            <p className="font-mono  text-gray-500 tracking-wider">
+            <p className="font-mono text-gray-500 tracking-wider">
                TO MY PORTFOLIO
             </p>
 

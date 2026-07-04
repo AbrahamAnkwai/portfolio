@@ -13,7 +13,8 @@ import { Profile } from "../types";
    All fictional placeholder names, careers, and statistics have been removed.
    Please fill in the commented fields below with your real information.
    ========================================================================== */
-  const BASE = import.meta.env.BASE_URL;
+  // Use a safe access for import.meta.env to satisfy TypeScript when ImportMeta typing is not extended
+  const BASE = ((import.meta as any).env?.BASE_URL) || '/';
 export const profileData: Profile = {
 
   // 1. YOUR BASIC INFORMATION

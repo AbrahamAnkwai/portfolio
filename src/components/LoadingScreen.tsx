@@ -48,10 +48,10 @@ export default function LoadingScreen() {
             </motion.div>
             
             <h1 className="font-sans font-bold text-lg text-white tracking-widest uppercase">
-              M E R C E R
+              WELCOME
             </h1>
             <p className="font-mono text-[9px] text-gray-500 tracking-wider">
-              ESTABLISHING CORE SYSTEM ENVIRONMENT
+               TO MY PORTFOLIO
             </p>
 
             {/* Fine Progress Indicator Line */}

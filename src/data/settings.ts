@@ -13,7 +13,7 @@
 
 export const siteSettings = {
   // Brand name shown in the navbar and footer
-  brandName: "Abr" /* ADD YOUR BRAND OR FIRST NAME HERE */,
+  brandName: "Portfolio" /* ADD YOUR BRAND OR FIRST NAME HERE */,
   brandTitle: "Personal Portfolio" /* ADD YOUR FULL NAME HERE */,
   
   // Custom SEO-ready meta settings

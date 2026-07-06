@@ -108,7 +108,7 @@ export default function Home({
                 </span>
               </>
             )}
-            <br/>Engine portfolio.
+            <br/>Abraham Ankwai.
           </h1>
 
           {profileData.typingTitles.length > 0 && (

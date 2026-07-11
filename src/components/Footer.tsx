@@ -104,11 +104,11 @@ export default function Footer({ onPageChange }: FooterProps) {
             </li>
             <li className="flex items-start gap-2.5 text-xs text-white/60">
               <LucideIcon name="PhoneCall" size={14} className="text-white/40 mt-0.5" />
-              <span className="font-mono">+123 (813) 509-7230</span>
+              <span className="font-mono">+234 (813) 509-7230</span>
             </li>
             <li className="flex items-start gap-2.5 text-xs text-white/60">
               <LucideIcon name="MapPin" size={14} className="text-white/40 mt-0.5" />
-              <span>San Francisco, CA, USA</span>
+              <span>PORT HARCOURT, NIGERIA.</span>
             </li>
           </ul>
         </div>
